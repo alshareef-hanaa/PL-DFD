@@ -265,7 +265,7 @@ def get_dfd_flows(typed_dfd_dic):
     return dfd_flows
 
 
-# steps: get flows of all DFD for every flow
+# the 6 input files
 dfd_xml_filename = sys.argv[1]
 dfd_csv_filename = sys.argv[2]
 signatures_csv_filename = sys.argv[3]
