@@ -18,8 +18,8 @@ Usage
 
 2- Export xml files of DFDs from draw.io
 
-3- Clone the [GitHub repository](https://github.com/alshareef-hanaa/.....):
+3- Clone the [GitHub repository](https://github.com/alshareef-hanaa/PL-DFD.git):
   
-  $ git clone 
+  $ git clone https://github.com/alshareef-hanaa/PL-DFD.git
 
 4- PL-DFD tool comprises two algorithms:
