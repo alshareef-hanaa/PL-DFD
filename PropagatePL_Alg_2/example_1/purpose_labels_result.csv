@@ -1,0 +1,5 @@
+value,purposes,source,target
+FLOW1,log,EX1,proc1
+FLOW2,add,EX2,proc1
+FLOW3,"{'add', 'log'}",proc1,proc2
+FLOW4,"{'add', 'log'}",proc2,EX3
