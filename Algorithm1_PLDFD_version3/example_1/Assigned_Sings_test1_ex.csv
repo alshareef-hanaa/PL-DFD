@@ -1,0 +1,5 @@
+element_name,privacy_signature
+EX1,source1( )(Flow 1)
+EX2,source2( )(Flow 2)
+Proc1,RestrictMultiple(Flow 1;Flow 2)(Flow 3)
+Proc2,Forward(Flow 3)(Flow 4)

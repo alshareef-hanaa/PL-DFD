@@ -1,0 +1,14 @@
+id,value,purposes,style,source,target,type
+2,Combining,,ellipse,null,null,process
+3,Splitting,,ellipse,null,null,process
+4,Out1,,rounded=0,null,null,external_entity
+5,In1,,rounded=0,null,null,external_entity
+6,In2,,rounded=0,null,null,external_entity
+7,email,"advert,login",endArrow=classic,5,2,endArrow=classic
+8,password,login,endArrow=classic,6,2,endArrow=classic
+9,email and password,login,endArrow=classic,2,12,endArrow=classic
+10,email,login,endArrow=classic,3,4,endArrow=classic
+11,Out2,,rounded=0,null,null,external_entity
+12,Credentials DB,,shape=partialRectangle,null,null,data_base
+13,email and password,login,endArrow=classic,12,3,endArrow=classic
+14,password,login,endArrow=classic,3,11,endArrow=classic

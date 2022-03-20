@@ -1,0 +1,10 @@
+id,value,purposes,style,source,target,type
+2,Proc1,,ellipse,null,null,process
+3,Proc2,,ellipse,null,null,process
+4,EX3,,rounded=0,null,null,external_entity
+5,EX1,,rounded=0,null,null,external_entity
+6,EX2,,rounded=0,null,null,external_entity
+7,Flow 1,login,endArrow=classic,5,2,endArrow=classic
+8,Flow 2,add,endArrow=classic,6,2,endArrow=classic
+9,Flow 3,"login,add",endArrow=classic,2,3,endArrow=classic
+10,Flow 4,"login,add",endArrow=classic,3,4,endArrow=classic

@@ -1,0 +1,7 @@
+element_name,privacy_signature
+In1,source1( )(email)
+In2,source2( )(password)
+Combining,com(email;password)(email and password)
+Credentials DB,Forward(email and password)(email and password)
+Splitting,sec(email and password)(password)
+Splitting,Forward(email and password)(email)

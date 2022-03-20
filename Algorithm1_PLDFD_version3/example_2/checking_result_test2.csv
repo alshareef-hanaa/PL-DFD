@@ -1,0 +1,7 @@
+value,purposes,source,target,computed_purposes,compatibility_result
+email,"advert,login",In1,Combining,"{'advert', 'login'}",True
+password,login,In2,Combining,{'login'},True
+email and password,login,Combining,Credentials DB,{'login'},True
+email,login,Splitting,Out1,{'login'},True
+email and password,login,Credentials DB,Splitting,{'login'},True
+password,login,Splitting,Out2,set(),False

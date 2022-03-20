@@ -1,0 +1,5 @@
+value,purposes,source,target,computed_purposes,compatibility_result
+Flow 1,login,EX1,Proc1,"{'add', 'login'}",True
+Flow 2,add,EX2,Proc1,{'add'},True
+Flow 3,"login,add",Proc1,Proc2,"{'add', 'login'}",True
+Flow 4,"login,add",Proc2,EX3,"{'add', 'login'}",True
