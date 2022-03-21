@@ -1,5 +1,0 @@
-element_name,privacy_signature
-EX1,sign1( )(FLOW1)
-EX2,sign2( )(FLOW2)
-proc1,sign3(FLOW1;FLOW2)(FLOW3)
-proc2,sign4(FLOW3)(FLOW4)
