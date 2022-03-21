@@ -1,0 +1,32 @@
+[{'id': '10', 'value': 'FLOW4', 'purposes': 'F', 'style': 'endArrow=classic', 'source': '6', 'target': '5', 'type': 'out'}, {'id': '9', 'value': 'FLOW3', 'purposes': 'F|F', 'style': 'endArrow=classic', 'source': '4', 'target': '6', 'type': 'comp'}, {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4', 'type': 'in'}, {'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4', 'type': 'in'}]
+[{'id': '10', 'value': 'FLOW4', 'purposes': 'F|F', 'style': 'endArrow=classic', 'source': '6', 'target': '5', 'type': 'out'}, {'id': '9', 'value': 'FLOW3', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '4', 'target': '6', 'type': 'comp'}, {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4', 'type': 'in'}, {'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4', 'type': 'in'}]
+[{'id': '10', 'value': 'FLOW4', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '6', 'target': '5', 'type': 'out'}, {'id': '9', 'value': 'FLOW3', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '4', 'target': '6', 'type': 'comp'}, {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4', 'type': 'in'}, {'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4', 'type': 'in'}]
+[{'id': '10', 'value': 'FLOW4', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '6', 'target': '5', 'type': 'out'}, {'id': '9', 'value': 'FLOW3', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '4', 'target': '6', 'type': 'comp'}, {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4', 'type': 'in'}, {'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4', 'type': 'in'}]
+4
+
+# the result after the evaluation
+[{'id': '10', 'value': 'FLOW4', 'purposes': {'log', 'add'}, 'style': 'endArrow=classic', 'source': '6', 'target': '5', 'type': 'out'}, {'id': '9', 'value': 'FLOW3', 'purposes': {'log', 'add'}, 'style': 'endArrow=classic', 'source': '4', 'target': '6', 'type': 'comp'}, {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4', 'type': 'in'}, {'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4', 'type': 'in'}]
+
+
+# input for first test
+# basic_purposes = {'log', 'add'}
+# result = [
+#     {'id': '10', 'value': 'FLOW4', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '6', 'target': '5',
+#      'type': 'out'},
+#     {'id': '9', 'value': 'FLOW3', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '4', 'target': '6',
+#      'type': 'comp'},
+#     {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4',
+#      'type': 'in'},
+#     {'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4',
+#      'type': 'in'}]
+# ref_signatures_dict = [{'signature_name': 'sign1', 'signature_inputs': [' '], 'signature_output': '7'},
+#  {'signature_name': 'sign2', 'signature_inputs': [' '], 'signature_output': '8'},
+#  {'signature_name': 'sign3', 'signature_inputs': ['7', '8'], 'signature_output': '9'},
+#  {'signature_name': 'sign4', 'signature_inputs': ['9'], 'signature_output': '10'}]
+# get the DFD flows
+
+
+# -------------- result of new testing ------------------
+
+prop_result =[{'id': '7', 'value': 'FLOW1', 'purposes': 'log', 'style': 'endArrow=classic', 'source': '2', 'target': '4', 'type': 'in', 'sig_name': 'sign1', 'sig_inputs': [' ']}, {'id': '8', 'value': 'FLOW2', 'purposes': 'add', 'style': 'endArrow=classic', 'source': '3', 'target': '4', 'type': 'in', 'sig_name': 'sign2', 'sig_inputs': [' ']}, {'id': '9', 'value': 'FLOW3', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '4', 'target': '6', 'type': 'comp', 'sig_name': 'sign3', 'sig_inputs': ['7', '8']}, {'id': '10', 'value': 'FLOW4', 'purposes': 'log|add', 'style': 'endArrow=classic', 'source': '6', 'target': '5', 'type': 'out', 'sig_name': 'sign4', 'sig_inputs': ['9']}]
+{'sign1': log, 'sign2': add, 'sign3': (#1|#2), 'sign4': None}

@@ -1,0 +1,5 @@
+function_name,input_number,def
+sign1,1,log
+sign2,1,add
+sign3,2,#1|#2
+sign4,1,

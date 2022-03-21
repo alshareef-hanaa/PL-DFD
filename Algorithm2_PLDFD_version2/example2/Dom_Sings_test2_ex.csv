@@ -1,0 +1,6 @@
+function_name,input_number,def
+source1, ,advert;login
+source2, ,login
+com,2,#1&#2
+sec,1,F
+Forward,1,

@@ -1,0 +1,7 @@
+value,purposes,source,target
+email,"{'advert', 'login'}",In1,Combining
+password,{'login'},In2,Combining
+email and password,{'login'},Combining,Credentials DB
+email,{'login'},Splitting,Out1
+email and password,{'login'},Credentials DB,Splitting
+password,set(),Splitting,Out2

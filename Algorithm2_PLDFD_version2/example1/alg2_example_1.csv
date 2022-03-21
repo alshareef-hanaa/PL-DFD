@@ -1,0 +1,10 @@
+id,value,purposes,style,source,target,type
+2,EX1,,rounded=0,null,null,external_entity
+3,EX2,,rounded=0,null,null,external_entity
+4,proc1,,ellipse,null,null,process
+5,EX3,,rounded=0,null,null,external_entity
+6,proc2,,ellipse,null,null,process
+7,FLOW1,F,endArrow=classic,2,4,endArrow=classic
+8,FLOW2,F,endArrow=classic,3,4,endArrow=classic
+9,FLOW3,F,endArrow=classic,4,6,endArrow=classic
+10,FLOW4,F,endArrow=classic,6,5,endArrow=classic
