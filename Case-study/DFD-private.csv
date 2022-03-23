@@ -1,0 +1,9 @@
+function_name,input_number,def
+Forward,1,
+RestrictMultiple,2,#1|#2
+RestrictSingle,1,#1&#1
+Anonymize,2,T
+Anonymize,1,T
+source1, ,voice processing
+source3, ,login
+source4, ,instal
