@@ -9,7 +9,7 @@ Prerequisites
  
  - Download draw.io from (https://about.draw.io/integrations/#integrations_offline) for drawing DFDs
  
- - Draw.io does not come with dedicated libraries for DFDs, download libraries for DFD from  (https://github.com/michenriksen/drawio-threatmodeling)
+ - Draw.io does not come with dedicated libraries for DFDs, download libraries for DFD from (https://github.com/michenriksen/drawio-threatmodeling)
 
 Usage
 ------------
@@ -22,4 +22,12 @@ Usage
   
   $ git clone https://github.com/alshareef-hanaa/PL-DFD.git
 
-4- PL-DFD tool comprises two algorithms:
+4- PL-DFD tool comprises two algorithms: the Consistency Checking algorithm and the Purpose Inference algorithm.
+
+Consistency Checking  
+---------------------
+ 1- Go into the directory where the script (main.py)
+Purpose Inference 
+------------------
+
+
