@@ -26,10 +26,17 @@ Usage
 
 Consistency Checking  
 ---------------------
+
  1- Go into the directory where the script (main.py)
+ 
+ 
+ 2- To run the script (main.py.) from the terminal, you need to provide the file names of the CSV files for privacy signatures ( from designer and domain expert), XML files for DFD,  and CSV files for system purposes and writing consistency checking result. 
  
  
 Purpose Inference 
 ------------------
 
+ 1- Go into the directory where the script (main.py)
+ 
+ 2- To run the script (main.py.) from the terminal, you need to provide the file names of the CSV files for privacy signatures ( from designer and domain expert), XML files for DFD,  and CSV files for system purposes and writing the inferred purpose(s) for each flow in your DFD. 
 
