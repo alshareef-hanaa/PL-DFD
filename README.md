@@ -27,6 +27,8 @@ Usage
 Consistency Checking  
 ---------------------
  1- Go into the directory where the script (main.py)
+ 
+ 
 Purpose Inference 
 ------------------
 
